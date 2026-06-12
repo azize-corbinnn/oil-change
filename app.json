@@ -7,11 +7,11 @@
     "userInterfaceStyle": "dark",
     "icon": "./assets/images/logo-crbn.png",
     "splash": {
+      "image": "./assets/images/splash.png",
       "backgroundColor": "#05050A",
       "resizeMode": "contain"
     },
     "ios": {
-      "image": "./assets/images/splash.png",
       "supportsTablet": true,
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Aplikasi memerlukan akses lokasi untuk merekam perjalanan kendaraan Anda",
