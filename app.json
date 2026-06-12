@@ -11,14 +11,12 @@
       "resizeMode": "contain"
     },
     "ios": {
+      "image": "./assets/images/splash.png",
       "supportsTablet": true,
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Aplikasi memerlukan akses lokasi untuk merekam perjalanan kendaraan Anda",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "Aplikasi memerlukan akses lokasi di background agar tracking tetap berjalan saat app ditutup",
-        "UIBackgroundModes": [
-          "location",
-          "fetch"
-        ]
+        "UIBackgroundModes": ["location", "fetch"]
       }
     },
     "android": {
