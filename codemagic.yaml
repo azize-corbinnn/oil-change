@@ -1,0 +1,16 @@
+workflows:
+  expo-android-apk:
+    name: Build Expo APK
+
+    max_build_duration: 60
+
+    environment:
+      node: 20
+
+    scripts:
+      - npm install
+      - npm install -g eas-cli
+      - eas build --platform android --profile preview --non-interactive
+
+    artifacts:
+      - "*.apk"
